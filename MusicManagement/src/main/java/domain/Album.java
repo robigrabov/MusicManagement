@@ -20,7 +20,7 @@ public class Album extends BasePersistable{
     @Column(name="genre")
     private String genre;
 
-    @OneToMany(targetEntity=Song.class, mappedBy="klasse")
+    @OneToMany//(targetEntity=Song.class, mappedBy="album")
     private Collection<Song> songs;
 
     public String getName() {

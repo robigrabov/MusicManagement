@@ -13,7 +13,7 @@ public class Song extends BasePersistable{
     @Column(name = "titel")
     private String titel;
 
-    @ManyToOne(targetEntity = Album.class)
+    @ManyToOne//(targetEntity = Album.class)
     private Album album;
 
     public String getTitel() {
@@ -22,5 +22,12 @@ public class Song extends BasePersistable{
 
     public void setTitel(String titel) {
         this.titel = titel;
+    }
+    public Album getAlbum() {
+        return album;
+    }
+
+    public void setAlbum(Album album) {
+        this.album = album;
     }
 }

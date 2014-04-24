@@ -7,9 +7,6 @@ import javax.persistence.MappedSuperclass;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by viktor on 3/26/14.
- */
 @MappedSuperclass
 public abstract class BasePersistable implements Serializable {
     private static final long serialVersionUID = 4209931258096103397L;

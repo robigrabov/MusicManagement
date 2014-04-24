@@ -29,22 +29,22 @@ public class PersistenceFactoryImpl implements PersistenceFactory{
         repositories.put(SongRepositoryJPA.class, songRepositoryJPA);
     }
 
-    
+    @Override
     public LabelRepositoryJPA labelRepository() {
         return (LabelRepositoryJPA) repositories.get(LabelRepositoryJPA.class);
     }
 
-    
+    @Override
     public AlbumRepositoryJPA albumRepository() {
         return (AlbumRepositoryJPA) repositories.get(AlbumRepositoryJPA.class);
     }
 
-    
+    @Override
     public ArtistRepositoryJPA artistRepository() {
         return (ArtistRepositoryJPA) repositories.get(ArtistRepositoryJPA.class);
     }
 
-    
+    @Override
     public SongRepositoryJPA songRepository() {
         return (SongRepositoryJPA) repositories.get(SongRepositoryJPA.class);
     

@@ -8,7 +8,7 @@ import static org.hamcrest.CoreMatchers.nullValue;
 import static org.junit.Assert.assertThat;
 
 
-public class FachRepositoryJPATest extends AbstractJPARepositoryTest {
+public class LabelRepositoryJPATest extends AbstractJPARepositoryTest {
     @Test
     public void verifyFindByUnknownId() {
         LabelRepositoryJPA labelRepositoryJPA = new LabelRepositoryJPA();

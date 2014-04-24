@@ -7,9 +7,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-/**
- * Created by viktor on 3/26/14.
- */
+
 public abstract class AbstractDomainPersistenceTest {
 
     private EntityManagerFactory entityManagerFactory;

@@ -12,9 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
-/**
- * Created by viktor on 3/26/14.
- */
+
 @Configuration
 @EnableTransactionManagement
 public class DomainConfiguration {
